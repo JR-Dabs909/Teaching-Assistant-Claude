@@ -14,8 +14,11 @@ admin, curriculum, grading.
    returns the exact proposed change, draft message, or scored table; the
    liaison reviews and posts/applies it to Canvas itself, after the instructor
    approves.
-2. **Never post grades, rubric scores, or feedback comments to Canvas directly**
-   — return them for the instructor to review and post.
+2. **Grades, rubric scores, and feedback comments are posted to Canvas by the
+   main/liaison session once the instructor has reviewed and approved the
+   draft** — subagents still never post these themselves (see rule 1); the
+   instructor's review of the actual scores/comments stays the gate before
+   anything goes live, since these affect real students' academic records.
 3. **Never publish or edit a live Canvas page, module, assignment, or rubric**
    — return finished drafts for the instructor to paste in and publish.
 4. **Never send messages or announcements to students** — return drafts only.
